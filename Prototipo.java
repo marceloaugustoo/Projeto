@@ -9,10 +9,9 @@ public class Prototipo {
 		
 		
 		while (dispositivo == 0) {
-			System.out.println("Escolha uma das opções");
+			System.out.println("Escolha uma das opÃ§Ãµes");
 			System.out.println("\n1 - Ar condicionado" + "\n2 - Chuveiro" + "\n3 - Forno Eletrico"
-					+ "\n4 - Geladeira" + "\n5 - Voltar para a pergunta anterior" + "\n6 - Voltar para o menu principal"
-					+"\n7 - Sair do programa");
+					+ "\n4 - Geladeira" +"\n5 - Sair do programa");
 			dispositivo = scan.nextInt();
 			
 			if (dispositivo == 1) {
@@ -32,14 +31,6 @@ public class Prototipo {
 				
 			}
 			else if (dispositivo == 5) {
-				System.out.println("Volta a pergunta");
-				
-			}
-			else if (dispositivo == 6) {
-				System.out.println("Volta ao menu");
-				
-			}
-			else if (dispositivo == 7) {
 				System.out.println("Porgrama finalizado, agradecemos a utilizacao.");
 				
 			}
